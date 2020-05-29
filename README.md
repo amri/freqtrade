@@ -58,7 +58,8 @@ sudo apt-get install git
 git clone https://github.com/MontrealTradingGroup/freqtrade.git
 cd freqtrade
 sudo apt-get install make build-essential python3-dev
-sudo apt install python3-pip
+sudo apt-get install python3-venv
+sudo apt-get install python3-pip
 git checkout develop
 ./setup.sh --install
 source .env/bin/activate
