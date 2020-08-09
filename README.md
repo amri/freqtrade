@@ -60,6 +60,7 @@ cd freqtrade
 sudo apt-get install make build-essential python3-dev
 sudo apt-get install python3-venv
 sudo apt-get install python3-pip
+sudo apt-get install libatlas-base-dev
 git checkout develop
 ./setup.sh --install
 source .env/bin/activate
